@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Галлерея</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <style type="text/css">
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+               
+                }
+        .center {
+            width: 500px; /* Ширина элемента в пикселах */
+            padding: 0px; /* Поля вокруг текста */
+            margin: auto; /* Выравниваем по центру */
+            background: #6b79912d;
+            box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+            /*background: #fc0;*/ /* Цвет фона */
+            }
+        .body {
+            font-family: 'Montserrat', sans-serif;
+            text-align:center;
+        }
+        .TABLE {
+            table-layout: fixed; /* Ячейки фиксированной ширины */
+         }  
+        .viev-in-browser{
+            
+            text-decoration: underline;
+            color: #CCCCCC;
+           
+        }
+        .img-enot{
+            
+            width: 245px;
+        }
+        .img-tiger{
+            width: 245px;
+            height: 200px;
+        }
+        .desc-text{
+            Margin:0;-webkit-text-size-adjust:none;
+            -ms-text-size-adjust:none;
+            mso-line-height-rule:exactly;
+            font-size:18px;
+            line-height:150%;
+            color:#000000;
+
+        }
+        .es-button{
+            mso-style-priority:100;
+            text-decoration:none;
+            -webkit-text-size-adjust:none;
+            -ms-text-size-adjust:none;
+            mso-line-height-rule:exactly;
+            font-size:20px;
+            color:#080707;
+            border-style:solid;
+            border-color:#ffffff;
+            border-width:10px 25px;
+            display:inline-block;
+            background:#ffffff none repeat scroll 0% 0%;
+            border-radius:0px;
+            font-weight:normal;
+            font-style:normal;
+            line-height:120%;
+            width:auto;
+            text-align:center;
+            border-radius: 50px;
+
+        }
+        .contacts{
+            background: #0000002d;
+        }
+        .cont-img{
+            width: 35px;
+        }
+        .cont-text{
+            color: #ffffff;
+            font-size: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+        <table width="100%" cellspacing="0" cellpadding="4" border="0">
+            <div>
+                <tr>
+                    <td width="250px" height="25px" ><b>Gallery</b></td> 
+                    <td width="250px" height="25px" align="right"><a class="viev-in-browser" href="https://ru.wikipedia.org/wiki/%D0%96%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5">view in borwser</a></td>
+                </tr>
+            </div>
+           <div>
+                <tr>
+                    <td width="500px" height="50px" colspan="2" style="text-align: center;"><h3>Енот-полоскун</h3></td>
+                </tr>
+                <tr> 
+                    <td width="125px" height="25px"><p class="desc-text">Подробнее ознакомится с данным видом животного вы можете нажав на кнопку.</p></td>
+                    <td width="245px" height="50px" rowspan="2" valign="top" align="right"><div><img class="img-enot" src="image/413px-Procyon_lotor_7_-_am_Wasser.jpg"></div></td>
+                </tr>
+                <tr>
+                    <td width="125px" height="25px" align="center"><a class="es-button" href="https://ru.wikipedia.org/wiki/%D0%95%D0%BD%D0%BE%D1%82-%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D1%83%D0%BD">ознакомится</a></td>
+                </tr>
+        </div>
+        <div>
+            <tr>
+                <td width="250px" height="50px" colspan="2" style="text-align: center;"><h3>Тигр</h3></td>
+            </tr>
+            <tr>
+                <td width="125px" height="25px"><p class="desc-text">Подробнее ознакомится с данным видом животного вы можете нажав на кнопку.</p></td>
+                <td width="245px" height="50px" rowspan="2" valign="top" align="right"><div><img class="img-tiger" src="image/P.t.altaica_Tomak_Male.jpg"></div></td>
+            </tr>
+            <tr>
+                 <td width="125px" height="25px" align="center"><a class="es-button" href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B8%D0%B3%D1%80">ознакомится</a></td>
+             </tr>
+        </div>
+        <div >
+            <tr class="contacts">
+                <td width="250px" height="25px" align="center"><span class="cont-text">Connect</span></td>
+                <td width="250px" height="25px" align="center"><span class="cont-text">Or call</span></td>
+            </tr>
+            <tr class="contacts">
+                <td width="250px" height="25px" align="center" >
+                    <img class="cont-img" src="image/facebook-circle-white.png">
+                    <img class="cont-img" src="image/linkedin-circle-white.png">
+                    <img class="cont-img" src="image/twitter-circle-white.png">
+                    <img class="cont-img" src="image/youtube-circle-white.png">
+                </td >
+                <td width="250px" height="25px" align="center"><span class="cont-text">8 (800) 123-45-67</span></td>
+            </tr>
+        </div>
+        </table>
+    </div>
+    </body>
+</html>
